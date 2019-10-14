@@ -28,11 +28,21 @@ In this project you will create a login page and request a token from the server
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Explain what a token is used for.
-- [ ] What steps can you take in your web apps to keep your data secure?
-- [ ] Describe how web servers work.
-- [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+- [X] Explain what a token is used for.
 
+A token is a client-side hash parameter used to validate access for a particular server/application.  It identifies who you are and what permissions are available (e.g. log in). 
+
+- [X] What steps can you take in your web apps to keep your data secure?
+
+You can authenticate users via protected routes and tokens to keep your data secure.
+
+- [X] Describe how web servers work.
+
+Once an application is written and deployed, it lives on a server.   A server is a computer that specializes in one purpose: sharing and extracting data among other computers, or servers, to create the internet. The server will share information if a user enters the correct domain.   The user can then navigate the application as if it were hosted locally on their own device.
+
+- [X] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+The “C” in CRUD, meaning “CREATE”, can be mapped out to the Post or Put Methods.  The “R”, which stands for “Read”, is usually applied through a Get or Update Method.  The Put Method stands for the “U” in the CRUD, or ‘Update’ data.  The Delete method stands for the “D” in CRUD, either ‘delete’ or ‘destroy’.
 
 ## Project Set Up
 
