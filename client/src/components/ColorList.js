@@ -84,6 +84,7 @@ const ColorList = ({ colors, updateColors }) => {
           </div>
         </form>
       )}
+    </div>
   );
 };
 
